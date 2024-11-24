@@ -28,8 +28,8 @@ int main() {
     int width, height;
     int i; 
 
-    printf("Enter width and height of the image: ");
-    scanf("%d %d", &width, &height);
+    printf("Enter height and width of the image: ");
+    scanf("%d %d", &height, &width);
 
     uint8_t *intImage = (uint8_t *)malloc(width * height * sizeof(uint8_t));
     double *floatImage = (double *)malloc(width * height * sizeof(double));
